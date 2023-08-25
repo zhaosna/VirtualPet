@@ -9,8 +9,8 @@ arc(505,205,95,135,PI+QUARTER_PI, TWO_PI);//right ear
 arc(390,215,95,155,PI, TWO_PI);//left ear
 fill(5,0,0);
 ellipse(450,400,285,330);//body
-arc(415,520,90,270,0,PI);//left leg
-arc(485,520,90,270,0,PI);//right leg
+arc(405,520,90,270,0,PI);//left leg
+arc(495,520,90,270,0,PI);//right leg
 fill(255,252,252);
 ellipse(450,455,235,205);//tummy
 ellipse(450,250,225,200);//face
@@ -25,4 +25,6 @@ arc(450,245,30,40,0,PI,CHORD);//nose
 arc(450,275,70,100,0,PI,CHORD);//mouth
 fill(207,117,116);
 arc(450,275,55,85,0,PI);//tongue
+textSize(50);
+text("ao~~",410,100);
 }
